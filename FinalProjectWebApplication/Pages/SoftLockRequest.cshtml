@@ -1,0 +1,22 @@
+﻿@page
+@model WebApplication1.Pages.SoftLockRequestModel
+@{
+}
+<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+<Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"></Script>
+
+
+<div class="container">
+<h4 style="text-align:center">SoftLock Request Confirmation</h4>
+
+<form style="text-align:center">
+  <p><label for="text">Please confirm the lock request for 1024</label></p>
+  <textarea id="requestmsg" name="requestmsg" rows="4" cols="50"></textarea>
+  <br>
+  <input type="submit" id="submit" value="Submit">
+</form>
+</div>
+
+<script src="~/js//SoftLockRequest.js"></script>
